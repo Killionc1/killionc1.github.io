@@ -1,12 +1,51 @@
+/*
+Corey Killion
+Stylesss
 
+*/
+p{ /* p === <p> paragraph </p> */
+	font-family:"lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:20px;
+}
 
-
-	.corey_style{
+h1{
+	/*  Change titles here   */
+}
+#corey_style{
 		background-color: #CCFFCC;
-		font-family:"lucida Sans Unicode", "Lucida Grande", sans-serif;
 		float:left;
-		height:400px;
-		width:400px;
-		padding:15px;
+		padding:50px;
 		border: 4px double #696969;
-	}
+		height:508px;
+}
+
+img#corey_style_pic{
+	/*  specify the ID is an image with img (not required)*/
+		height:450px;
+		width:380px;
+		padding-top: 25px; /* To center the image */
+}
+
+.corey_style{
+   	background-color: #CCFFCC;
+	float:left;
+	height:200px;
+	width:600px;
+	padding:50px;
+	border: 4px double #696969;
+}
+
+.stitched {
+   padding: 20px;
+   margin: 5px;
+   background: #ff0030;
+   color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+}
