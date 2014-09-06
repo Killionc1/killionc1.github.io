@@ -3,7 +3,8 @@ Corey Killion
 Stylesss
 
 */
-p{ /* p === <p> paragraph </p> */
+p{ 
+	/* p === <p> paragraph </p> */
 	font-family:"lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:20px;
 }
@@ -49,3 +50,5 @@ img#corey_style_pic{
    text-shadow: -1px -1px #aa3030;
    font-weight: normal;
 }
+
+}/* EOF */
