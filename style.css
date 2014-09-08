@@ -15,8 +15,8 @@ h1{
 	font-size:30px;
 	background-color:#4169E1;
 	width: 50%;
-	border-radius: 20px;
-	float: center;
+	border-radius: 15px;
+	text-align: center;
 
 	/*  Change titles here   */
 }
