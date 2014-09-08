@@ -3,19 +3,22 @@
 <head>
 	<meta charset= "utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="navbar.js"></script>
 	<title>Corey Killion</title>
 
 </head>
-<nav id='top-menu'>
-      <ul class='menu'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      </nav>
 <body>
-
+	<a href="#menu" class="menu-link">&#9776;</a>
+      <nav id="menu" class="panel" role="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Artist of the Month</a></li>
+        <li><a href="#">Upcoming Shows</a></li>
+        <li><a href="#">Venues</a></li>
+        <li><a href="#">News</a></li>
+    </ul>
+</nav>
 	
 	<form>
 		<input type="button" value="Soundcloud Page" onClick="window.location.href='https://soundcloud.com/corey-wilson-31'">
@@ -40,6 +43,10 @@
 		<h1> What do I like right now:</h1>
 			<p class="stitched">Click the Youtube button to find out my favorite song this week.</p>
 	</div>
-
+<script>
+    $(document).ready(function() {
+        $('.menu-link').bigSlide();
+    });
+</script>
 </body>
 </html>
