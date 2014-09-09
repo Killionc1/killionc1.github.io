@@ -16,7 +16,6 @@ h1{
 	background-color:#4169E1;
 	width: 50%;
 	border-radius: 15px;
-	text-align: center;
 
 	/*  Change titles here   */
 }
@@ -24,6 +23,7 @@ h1{
 		float:left;
 		padding:50px;
 		height:508px;
+		text-align: center;
 }
 
 body {
