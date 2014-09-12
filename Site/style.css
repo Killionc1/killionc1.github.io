@@ -65,7 +65,7 @@ img#corey_style_pic{
 	float:left;
 	height:200px;
 	width:500px;
-	padding:50px;
+	padding:30px;
 	border: 4px double #696969;
 	text-align: center;
 }
@@ -86,8 +86,9 @@ img#corey_style_pic{
 }
 iframe #music_player {
 	 
-	width:150%; 
+	width:100%; 
 	height:50%;
+	padding:10px;
 	
 }
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Corey Killion</title>
+
+</head>
+<body>
+      <nav id="menu" class="panel" role="navigation">
+    <ul>
+        <li><a href="#" target="_parent">Home</a></li>
+        <li><a href="#">Artist of the Month</a></li>
+        	<ul>
+        		<li><a href="http://en.wikipedia.org/wiki/Dillon_Francis" target="_blank">Dillion Francis</a></li>
+        	</ul>
+        <li><a href="#">Upcoming Shows</a></li>
+        <li><a href="#">Venues</a></li>
+        <li><a href="#">Artist in the Headlines</a></li>
+    </ul>
+</nav>
+	
