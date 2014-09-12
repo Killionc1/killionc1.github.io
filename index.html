@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "utf-8">
+		<link rel="stylesheet" type="text/css" href="./Site/mainstyle.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="./Site/navbar.js"></script>
+	<title>Corey Killion</title>
+
+</head>
+<body>
+      <nav id="menu" class="panel" role="navigation">
+    <ul>
+        <li><a href="#" target="_parent">Home</a></li>
+        <li><a href="#">Artist of the Month</a></li>
+        	<ul>
+        		<li>deadmau5</li>
+        	</ul>
+        <li><a href="#">Upcoming Shows</a></li>
+        <li><a href="#">Venues</a></li>
+        <li><a href="#">Artist in the Headlines</a></li>
+    </ul>
+</nav>
+	
+	<nav class="main-nav" type="button">
+		<a href="mailto:coreyflyer@gmail.com">Contact Me
+		</a>
+	</nav>
+	
+	<form>
+		<input type="button" value="Soundcloud Page" onClick="window.location.href='https://soundcloud.com/corey-wilson-31'">
+
+    	<input type="button" value="Youtube" onClick="window.location.href='https://www.youtube.com/watch?v=tnNM7devItM#t=111'">
+
+	</form>
+		<a href="#menu" class="menu-link">&#9776;</a>
+		3
+	<!-- Gallery -->
+	<div id="corey_style">
+	<img id="corey_style_pic" src="./Images/Ultra-Music-Festival-2012-11.jpg" alt="If you cant see this pic. I did something wrong." />
+</div>
+		
+	<!-- TEXT SHIT -->
+	<div class="corey_style">
+		<h1> About: </h1>
+			<p class="stitched">Just wanted an outlet to post some of my favorite songs.  Maybe some Dj's you haven't heard or other artists I find. Click "My Soundcloud" button at the top to go to my page.</p>
+	</div>
+	<div class="corey_style">
+		<h1> What am I listening to:</h1>
+			<p class="stitched">Click the Youtube button to find out my favorite song this week.</p>
+	</div>
+<footer>
+<div id="music_player">
+	<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/166325255&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</div>
+</footer>
+
+<script>
+    $(document).ready(function() {
+        $('.menu-link').bigSlide();
+    });
+</script>
+</body>
+</html>
